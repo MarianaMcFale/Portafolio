@@ -1,0 +1,570 @@
+
+@media screen and (max-width:1200px){
+    section.menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: flex-end;
+        height: 10vw;
+        margin-left: 6vw;
+        color: white;
+    }
+
+
+    section.menu_header {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: 700;
+        color:  whitesmoke;
+    }
+    .menu_header{
+       width: 20%;
+    }
+    nav{
+        width: 70%;
+    }
+
+    section.menu nav ul.listaMenu{
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        width: 60vw;
+    }
+
+    section.titulo {
+        padding-top: 2vw;
+        padding-bottom: 4vw;
+    }
+
+
+    li a{
+        text-decoration: none;
+        color:  whitesmoke;
+    }
+
+    nav :hover {
+        color: rgba(134, 255, 215, 0.815);
+        transition: 500ms;
+    }
+
+    nav ul.listaMenu li:nth-child(6){
+        font-weight: 800;
+    }
+
+    section.titulo{
+        margin-left: 6vw;
+        width: 90vw;
+        color: #2f2f2ffd;
+    }
+
+
+    section.titulo div.titulo_div{
+        justify-content: space-around;
+        align-content: flex-start;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .tituloBio{
+        font-weight: 800;
+        font-size: 34px;
+        color: white;
+        text-align: justify;
+        margin-right: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .tituloSubseccion{
+        font-size: 22px;
+        color: white;
+        text-align: justify;
+        margin-right: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    ul.tituloRedes{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-start;
+        width: 60vw;
+        color: whitesmoke;
+    }
+
+    ul.tituloRedes a:hover{
+        color: rgba(247, 255, 134, 0.863);
+        transition: 500ms;
+        font-weight: 600;
+    }
+
+    section.about {
+        background-color: rgb(213, 237, 253);
+        align-items: center;
+        width: 101%;
+    }
+
+    section.about div.contenedorAbout{
+        background-color: rgb(213, 237, 253);
+        width: 65vw;
+        margin-left: 6vw;
+        color: #41537afd;
+        text-align: justify;
+        padding-top: 3vw;
+        padding-bottom: 4vw;
+        height: 30vw;
+    }
+
+    .tituloAbout{
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    .tituloPerfil{
+        width: 100%;
+        height: 100%;
+    }
+
+    .paragAbout{
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        font-size: 20px;
+    }
+
+    section.about div.contenedorAbout img{
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    section.skills {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+
+    .tituloSkills{
+        color: #fffffffd;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        margin-left: 6vw;
+        width: 90vw;
+    }
+
+    .skillsLinea{
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+        margin-left: 6vw;
+    }
+
+    .skillsBox{
+        background-color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 180px;
+        height: 178px;
+        border-radius: 15%;
+    }
+    .skillsBox ul{
+        padding-left: 10%;
+        padding-top: 60%;
+        font-size: 16px;
+        color: #464646e3;
+        font-weight: 700;
+    }
+
+    .skillsBox ul li{
+        padding-bottom:10%;
+    }
+
+    section.hobbies {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 6vw;
+        width: 100%;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+
+    .tituloHobbies{
+        color: white;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 6vw;
+        padding-bottom: 4vw;
+        margin-left: 6vw;
+        width: 90vw;
+    }
+
+    .lineaHobbies{
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+        margin-left: 6vw;
+    }
+
+    .hobbiesBox{
+        background-color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 180px;
+        height: 178px;
+        border-radius: 15%;
+    }
+    .hobbiesBox ul{
+        padding-left: 10%;
+        padding-top: 60%;
+        font-size: 16px;
+        color: #464646e3;
+        font-weight: 700;
+        
+    }
+
+    .hobbiesBox ul li{
+        padding-bottom:10%;
+    }
+
+    section.academico{
+        background-color: rgb(213, 237, 253);
+        padding-top: 2vw;
+        padding-bottom: 6vw;
+        width: 101%;
+    }
+
+    .tituloAcademico{
+        color: #41537afd;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+        margin-left: 6vw;
+        width: 90vw;
+    }
+
+    .cursosAcademico{
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+        margin-left: 6vw;
+    }
+
+    .cursosAcademicoBox{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 25%;
+    }
+
+    .cursosAcademicoLista{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cursosAcademicoItem_img{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        width: 300px;
+        height: 200px;
+        align-items: center;
+    }
+
+    .cursosAcademicoItem_titulo{
+        color: #464646e3;
+        font-size: 19px;
+        font-weight: 600;
+        padding-top: 4%;
+        padding-bottom: 2%;
+    }
+
+    .cursosAcademicoItem_subtitulo{
+        color: #464646e3;
+        font-size: 14px;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    section.experiencia {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+        width: 100%;
+    }
+
+    .experienciaTituloPpal{
+        color: white;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        margin-left: 6vw;
+        width: 90vw;
+    }
+
+    section.experiencia div.experienciaBox{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 6vw;
+        width: 90vw;
+        padding-bottom: 4%;
+        padding-top: 2%;
+    }
+
+    #ahorcado_xp{
+        flex-direction: row-reverse;
+    }
+
+    .experiencia_img{
+        width: 65%;
+        height: 65%;
+    }
+
+    .experienciaInfo{
+        padding-left: 2%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 30%;
+    }
+
+
+    .experienciaTitulo{
+        color: white;
+        font-weight: 600;
+        font-size: 25px;
+        padding-bottom: 2%;
+    }
+
+    .experienciaTexto{
+        color: white;
+        font-size: 18px;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    .experienciaDescripcion{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        
+    }
+
+    .experienciaDescripcion span{
+        display: flex;
+        justify-self: flex-start;
+        width: 50%;
+    }
+
+    .experienciaDescripcion span button{
+        width: 110%;
+        height: 200%;
+        font-size: 16px;
+    }
+
+    .experienciaRepositorio button{
+        background-color: white;
+        border-color: rgb(49, 149, 136);
+        border-style:solid;
+        color: rgb(38, 102, 93);
+
+    }
+
+
+    .experienciaDemo button{
+        background-color: rgb(49, 149, 136);
+        border-color: rgb(49, 149, 136);
+        border-style: solid;
+        color: white;
+    }
+
+    .experienciaDescripcion button:hover{
+        background-color: rgb(213, 237, 253);
+        border-color: rgb(213, 237, 253);
+        border-style: solid;
+        color: #41537afd;
+        transition: 700ms;
+    }
+
+    section.formContacto {
+        background-color: rgb(213, 237, 253);
+        padding-top: 2vw;
+        padding-bottom: 6vw;
+        width: 101%;
+    }
+    .mensajeEnviado{
+        display: flex;
+        align-self: flex-end; 
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+        background-color: rgb(177, 221, 194);
+        border: rgb(72, 129, 95);
+        color: rgb(72, 129, 95);
+        font-size: 16px;
+    }
+
+    .mensajeError{
+        display: flex;
+        align-self: flex-end; 
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+        background-color: rgb(255, 227, 236);
+        border: rgb(255, 94, 145);
+        color: rgb(255, 94, 145);
+        font-size: 16px;
+    }
+
+
+    #mensajeUser{
+        margin-top: 6vw;
+    }
+
+    div .formContacto_contacto{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 6vw;
+        width: 90vw;
+    }
+
+    .formContacto_izq{
+        display: flex;
+        align-items: center;
+        margin-top: 6vw;
+        width: 30%;
+    }
+
+    .formContacto_img{
+        margin-top: 4vw;
+        width: 150%;
+        align-self: center;
+    }
+
+    div .formContactoTexto{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: flex-start;
+    }
+
+    .formContactoTitulo{
+        color: #41537afd;
+        font-size: 30px;
+        font-weight: 800;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .formContactoSub{
+        color: #41537afd;
+        font-size: 14px;
+        padding-bottom: 2%;
+    }
+
+    .formContacto_form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: space-between;
+    }
+
+    input.formContacto_input{
+        height: 2em;
+        background-color: white;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 14px;
+        padding: 1%;
+        border: none;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        align-self: stretch;
+        text-align: left;
+        text-overflow: ellipsis;
+        border: 0;
+        outline: none;
+        background-color: white;
+        color: #464646e3;
+    }
+
+    textarea{
+        background-color: white;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 14px;
+        padding: 2%;
+        border: none;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        align-self: stretch;
+        text-align: left;
+        text-overflow: ellipsis;
+        border: 0;
+        outline: none;
+        background-color: white;
+        color: #464646e3;
+        resize: none;
+    }
+
+    .formContacto_boton{
+        width: 22%;
+        height: 3.5em;
+        font-size: 14px;
+        background-color: rgb(49, 149, 136);
+        border-color: rgb(49, 149, 136);
+        border-style:solid;
+        color: white;
+        align-self: flex-start;
+    }
+
+    .formContacto_boton:hover{
+        background-color: #ff0055fd;
+        border-color: #ff0055fd;
+        border-style:solid;
+        color: white;
+        transition: 700ms;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        padding: 1%;
+    }
+
+    .footer p{
+        padding: 0.5%;
+    }
+}
